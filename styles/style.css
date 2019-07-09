@@ -32,7 +32,7 @@ input[type="text"]:hover{
 }
 #apps-icon{
     width: 16px;
-    height: 16px;
+    height: 35px;
     opacity: .55;
 }
 #apps-icon:hover{
@@ -50,6 +50,12 @@ input[type="text"]:hover{
 .menu li{
     float:left;
     padding: 14px 16px;
+}
+.menu input[type="submit"]{
+    border: 0;
+    background: transparent;
+    padding: 0 0 0 0;
+    padding-top: -10px;
 }
 .search-buttons-list ul{
     clear:left;
@@ -81,4 +87,33 @@ input[type="submit"]{
     margin: 11px 4px;
     padding: 0 16px;
     border-radius: 4px;
+}
+.footer {
+    padding-left: 27px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e4e4e4;
+    color: rgba(0,0,0,.54);
+    font-size: small;
+    text-align: left;
+  }
+  .footer ul{
+    display: block;
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer li{
+    float:left;
+    padding: 14px 16px;
+}
+.footer input[type="submit"]{
+    border: 0;
+    background: transparent;
+    padding: 0 0 0 0;
+    padding-top: -10px;
 }
