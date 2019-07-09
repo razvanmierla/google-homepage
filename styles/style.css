@@ -9,7 +9,7 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-input{
+input[type="text"]{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -25,7 +25,8 @@ input{
     padding-left: 2em;
     padding-bottom: 6px;
 }
-input:hover{
+
+input[type="text"]:hover{
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
@@ -37,7 +38,7 @@ input:hover{
 #apps-icon:hover{
     opacity: 100;
 }
-ul{
+.menu ul{
     display: block;
     text-align: center;
     font-size: 13px;
@@ -46,7 +47,38 @@ ul{
     margin: 0;
     padding: 0;
 }
-li{
+.menu li{
     float:left;
     padding: 14px 16px;
+}
+.search-buttons-list ul{
+    clear:left;
+    float:left;
+    list-style-type: none;
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0 ;
+    left: 50%;
+    text-align: center;
+}
+.search-buttons-list li{
+    display:block;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    right:50%;
+}
+input[type="submit"]{
+    background-color: #f2f2f2;
+    border: 10px solid #f2f2f2; 
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    border-radius: 4px;
 }
