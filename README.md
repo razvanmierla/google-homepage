@@ -9,4 +9,4 @@ After i modified the position and the style of the search bar (using developer t
 After that, I created the buttons(where i had some positioning them in the center of the page) and then I moved on to the footer section.
 This is where i had the biggest problems and where I learned the most out of this project. Here, I played with the CSS styling, trying to make the unordered list look good on the footer section. After some tweaks and some searches on the google, I finally made it through.
 
-Some big things that I learned through this project: how to organise your html pages; how to work with browser dev tools; how to stylise the elemnts of HTML using CSS.
+Some big things that I learned through this project: how to organise your html pages; how to work with browser dev tools; how to stylise the elements of HTML using CSS.
